@@ -23,7 +23,7 @@ public class AocSolutionsTest {
                 new Arguments("Day02", Day02::main, "1606483", "3842356"),
                 new Arguments("Day03", Day03::main, "2592", "2360"),
                 new Arguments("Day04", Day04::main, "254575", "1038736"),
-                new Arguments("Day05", Day05::main, "0", "0"),
+                new Arguments("Day05", Day05::main, "258", "53"),
                 new Arguments("Day06", Day06::main, "0", "0"),
                 new Arguments("Day07", Day07::main, "0", "0"),
                 new Arguments("Day08", Day08::main, "0", "0"),
