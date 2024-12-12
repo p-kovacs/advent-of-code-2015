@@ -3,7 +3,6 @@ package com.github.pkovacs.aoc.y2015;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.github.pkovacs.aoc.AocUtils;
 import com.github.pkovacs.util.InputUtils;
 import com.github.pkovacs.util.data.Tile;
 
@@ -12,7 +11,7 @@ public class Day03 {
     public static void main(String[] args) {
         var input = InputUtils.readSingleLine(AocUtils.getInputPath());
 
-        var set1= run(input, 0, 1);
+        var set1 = run(input, 0, 1);
 
         var set2 = run(input, 0, 2);
         var robot = run(input, 1, 2);

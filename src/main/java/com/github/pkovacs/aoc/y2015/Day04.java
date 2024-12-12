@@ -2,9 +2,8 @@ package com.github.pkovacs.aoc.y2015;
 
 import java.nio.charset.StandardCharsets;
 
-import com.google.common.hash.Hashing;
-import com.github.pkovacs.aoc.AocUtils;
 import com.github.pkovacs.util.InputUtils;
+import com.google.common.hash.Hashing;
 
 public class Day04 {
 
@@ -27,7 +26,7 @@ public class Day04 {
         System.out.println("Part 2: " + index2);
     }
 
-    @SuppressWarnings({ "deprecated", "UnstableApiUsage" })
+    @SuppressWarnings("deprecation")
     private static String getMd5Hash(String s) {
         return Hashing.md5().hashString(s, StandardCharsets.UTF_8).toString();
     }

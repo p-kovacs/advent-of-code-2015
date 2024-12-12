@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import com.github.pkovacs.aoc.AocUtils;
 import com.github.pkovacs.util.InputUtils;
 import com.github.pkovacs.util.data.CounterMap;
 import com.google.common.collect.ListMultimap;
@@ -25,7 +24,7 @@ public class Day07 {
         int solution1 = solve(input1);
 
         var input2 = Stream.concat(input1.stream().filter(line -> !line.endsWith(" -> b")),
-        Stream.of(solution1 + " -> b")).toList();
+                Stream.of(solution1 + " -> b")).toList();
         int solution2 = solve(input2);
 
         System.out.println("Part 1: " + solution1);
