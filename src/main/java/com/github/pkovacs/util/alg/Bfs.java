@@ -20,8 +20,6 @@ import java.util.function.Predicate;
  * The algorithm terminates when a shortest path is found for at least one target node (more precisely, for each
  * target node having minimum distance). This way, we can search paths even in an infinite graph of feasible states
  * and steps.
- *
- * @see ShortestPath
  */
 public final class Bfs {
 
